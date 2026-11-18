@@ -23,12 +23,12 @@ connectivity.
 
 | If you want to… | Go to |
 | --- | --- |
-| See the whole system running, with example data | [DEMO-odin-pipeline-web-application](https://github.com/ODIN-consortium/DEMO-odin-pipeline-web-application) |
+| See the whole system running, with example data | [odin-pipeline-starter-kit](https://github.com/ODIN-consortium/odin-pipeline-starter-kit) |
 | Run surveillance analyses through a browser | [odin-pipeline-web-application](https://github.com/ODIN-consortium/odin-pipeline-web-application) |
 | Drive the same pipelines from the command line | [odin-pipeline-scripts](https://github.com/ODIN-consortium/odin-pipeline-scripts) |
 | Look at the sequence analysis workflows themselves | [odin-sequence-analysis-pipeline](https://github.com/ODIN-consortium/odin-sequence-analysis-pipeline) |
 
-If you are evaluating ODIN for the first time, start with the **demo** — it ships with
+If you are evaluating ODIN for the first time, start with the **starter-kit** — it ships with
 pre-populated metagenomics and Mpox amplicon runs, so you can see the complete workflow without
 needing data of your own.
 
@@ -57,10 +57,11 @@ workbook against what is actually on disk, and builds the datasets the dashboard
 
 *Python · Bash · Nextflow · AGPL-3.0*
 
-### [DEMO-odin-pipeline-web-application](https://github.com/ODIN-consortium/DEMO-odin-pipeline-web-application)
+### [odin-pipeline-starter-kit](https://github.com/ODIN-consortium/odin-pipeline-starter-kit)
 
 A self-contained demonstration deployment, packaged with example sequencing runs so the full
-system can be evaluated end to end without access to project data.
+system can be evaluated end to end without access to project data. The starter kit can be adapted
+to your own application.
 
 *Docker Compose · Git LFS · AGPL-3.0*
 
@@ -119,7 +120,7 @@ results comparable across runs, sites and countries.
 
 ## Licence
 
-The pipeline scripts, the web application and its demonstration deployment are released under the
+The pipeline scripts, the web application and its starter kit deployment are released under the
 **GNU Affero General Public License v3.0**. Third-party workflows invoked by the pipelines keep
 their own upstream licences, which are documented in the respective repositories.
 
